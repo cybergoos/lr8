@@ -1,0 +1,123 @@
+.table-header {
+    color: white;
+    background: black;
+}
+
+* {
+    transition: none;
+}
+
+td {
+    padding: 10px 20px;
+}
+
+th {
+    padding: 10px 20px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+form input, form textarea {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+form textarea {
+    margin-bottom: 15px;
+    width: 500px;
+    height: 200px;
+}
+
+.page-container {
+    padding: 40px;
+}
+
+table, td, th {
+    border: 1px solid rgb(0, 0, 0, 0.2);
+}
+
+.cat input {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+select {
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background: rgba(0, 0, 0);
+    white-space: nowrap;
+}
+
+html {
+    overflow: unset;
+}
+
+th.table-header__category {
+    background: red !important;
+}
+
+.form-cats div {
+    min-width: 100px;
+}
+
+table.active {
+    width: 100%;
+    height: 100%;
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    user-select: unset;
+    position: relative;
+}
+
+table {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    user-select: none;
+    opacity: 0;
+    z-index: -1;
+    border-spacing: 0;
+    position: absolute;
+}
+
+.gender-tabs {
+    display: flex;
+}
+
+.gender-tabs a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.gender-tabs a {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.gender-tabs a.active {
+    color: red;
+    text-decoration: underline;
+}
+
+.page-container a {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.name-cat-col {
+    text-align: center;
+}
